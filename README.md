@@ -1,2 +1,2 @@
 # Codesignal
-codesignal-task
+codesignal-tasks
