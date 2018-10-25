@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2041
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "extractMatrixColumn", "extractMatrixColumn\extractMatrixColumn.csproj", "{DC608730-F1C9-4F73-97FA-67D475AD4D99}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC608730-F1C9-4F73-97FA-67D475AD4D99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC608730-F1C9-4F73-97FA-67D475AD4D99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC608730-F1C9-4F73-97FA-67D475AD4D99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC608730-F1C9-4F73-97FA-67D475AD4D99}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EC02B4F7-D73E-49B6-8BC1-687B4FEC3A9B}
+	EndGlobalSection
+EndGlobal
