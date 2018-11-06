@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace extractMatrixColumn
+namespace crossingSum
 {
     class Program
     {
@@ -12,12 +12,15 @@ namespace extractMatrixColumn
         {
         }
 
-        int[] extractMatrixColumn(int[][] matrix, int column)
+        int crossingSum(int[][] matrix, int a, int b)
         {
-            int[] ret = new int[matrix.Length];
+            int sum = 0;
             for (int i = 0; i < matrix.Length; i++)
-                ret[i] = matrix[i][column];
-            return ret;
+                sum += matrix[i][b];
+            for (int i = 0; i < matrix[0].Length; i++)
+                if (i != b)
+                    sum += matrix[a][i];
+            return sum;
         }
     }
 }
