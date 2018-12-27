@@ -36,7 +36,6 @@ namespace christmasTree
             {
                 Console.WriteLine(ret[i]);
             }
-
             return ret;
         }
         /*
